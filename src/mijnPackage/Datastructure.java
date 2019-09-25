@@ -9,7 +9,7 @@ public class Datastructure {
 
     //maak een datastructure met een array met getallen 0 tot size
     public Datastructure() {
-        for (int index = 0; index < SIZE - 1; index++) {
+        for (int index = 0; index <= SIZE - 1; index++) {
             arrayOfInts[index] = index;
         }
     }
